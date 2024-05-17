@@ -1,0 +1,138 @@
+.groups__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.groups__header__title {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--text-color);
+    font-size: 30px;
+    letter-spacing: -.553px;
+}
+table{
+    width: 100%;
+}
+.gruops__header__btn {
+    background: linear-gradient(to bottom right, rgb(23, 157, 190), rgb(63 140 255));
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px -1px #00000012, 0 4px 7px -1px #0000001c;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    height: 40px;
+    letter-spacing: -.332px;
+    outline: 0;
+    transition: all .2s;
+    width: 60px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.groups__table {
+   
+    font-family: Open Sans;
+    margin-top: 40px;
+    padding: 10px 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.table__img {
+    width: 40px;
+    aspect-ratio: auto 40 / 40;
+    height: 40px;
+}
+
+th {
+    padding: 14px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -.443px;
+    padding: 15px;
+    color: var(--text-color);
+    font-family: Open Sans;
+    font-style: normal;
+    line-height: normal;
+
+}
+
+td {
+    padding: 14px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -.443px;
+    padding: 15px;
+    color:  var(--text-color);
+    font-family: Open Sans;
+    font-style: normal;
+    line-height: normal;
+}
+
+
+.more__icon {
+    background: #38c475;
+    color: #fff;
+    border-radius: 50%;
+    border-right: 50%;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.delete__icon {
+    border-radius: 50%;
+    border-right: 50%;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    background: #e73c3c;
+    color: #fff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.edit__icon {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    border-right: 50%;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    background: #62acdd;
+    color: #fff;
+}
+.bi-person-fill-add{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    border-right: 50%;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    background: #07e20f;
+    color: #fff;
+}
+.groups__btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.course-img{
+    width: 40px;
+    height: 40px;
+}

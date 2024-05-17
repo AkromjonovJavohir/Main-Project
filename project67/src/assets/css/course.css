@@ -1,0 +1,266 @@
+.courses__search {
+    width: 77.5%;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    /* margin-left: 20%; */
+    box-shadow: 0px 20px 27px 0px #0000000D;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.courses__search h1 {
+    color: grey;
+    font-weight: 500;
+}
+
+.courses__search__content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    justify-content: end;
+    margin-top: -20px;
+}
+
+.search__input {
+    padding: 10px;
+    height: 100%;
+    border: 1px solid rgb(198, 198, 198);
+    border-radius: 10px;
+    width: 25%;
+    color: grey;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    justify-content: center;
+    padding: 7px;
+    font-size: large;
+}
+
+.search__input input {
+    border: none;
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+    font-size: large;
+    font-weight: 100;
+    color: rgb(198, 198, 198);
+}
+
+.courses__btn {
+    color: grey;
+    border: none;
+    margin-left: 10px;
+    background: none;
+    font-size: x-large;
+}
+
+
+/*  */
+
+
+
+
+.courses__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: 20px; */
+    width: 100%;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.courses__title h1 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* .courses__title h1 {
+
+} */
+.courses__title button {
+
+    background: linear-gradient(to bottom right, rgb(23, 157, 190), rgb(63 140 255));
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px -1px #00000012, 0 4px 7px -1px #0000001c;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    height: 40px;
+    letter-spacing: -.332px;
+    outline: 0;
+    transition: all .2s;
+    width: 60px;
+
+}
+
+.content-header button,
+.content-header h1 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+
+}
+.bi-three-dots-vertical{
+    color:  var(--text-color);
+}
+
+.courses__cards {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.courses__card1 {
+    position: relative;
+    width: 31%;
+    height: 315px;
+    box-shadow:  var(--b-sh);
+    padding: 20px 25px;
+    background-color: #fff;
+    border-radius: 13px;
+    /* box-shadow: 0 0 10px; */
+    transition: all .2s;
+    background: var(--bg);
+}
+
+.courses__card1__img {
+    display: flex;
+    position: relative;
+
+}
+
+.courses__card1__img img {
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+}
+
+.courses__card1__img button {
+    background: none;
+    border: none;
+    /* width: 50px;
+height: 50px; */
+    font-size: larger;
+    font-size: x-large;
+    margin-left: 60%;
+}
+
+.duration {
+    color: rgb(15, 208, 15);
+    font-weight: 700;
+}
+
+.price1 {
+    color: rgba(216, 181, 24, 0.562);
+    font-weight: 700;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: -.387px;
+    line-height: normal;
+}
+
+.courses__card1__title {
+    font-family: Open Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -.553px;
+    line-height: normal;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+
+.courses__card1__text {
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    letter-spacing: -.387px;
+    line-height: normal;
+    color: var(--hover-color);
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.courses__card1__text2 {
+    border-top: 1px solid var(--hover-color);
+    color: var(--hover-color);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -.443px;
+    line-height: 26px;
+    overflow: hidden;
+    padding-top: 5px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 5px;
+
+}
+
+
+
+
+.card-menu i {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.courses__card1__img :hover .card-menu {
+    visibility: visible;
+}
+
+.course_body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.card-menu{
+    
+    align-items: center;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow:  var(--b-sh);
+    display: flex;
+    flex-direction: column;
+    /* gap: 5px; */
+    height: 70px;
+    justify-content: center;
+    position: absolute;
+    right: 15px;
+    top: 24px;
+    transition: all .2s;
+    visibility: hidden;
+    width: 40px;
+    background:var(--bg) ;
+}
+.card-menu i{
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.courses__card1__img :hover .card-menu{
+    visibility: visible;
+}

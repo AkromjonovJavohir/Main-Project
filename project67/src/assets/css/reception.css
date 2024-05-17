@@ -1,0 +1,195 @@
+.reception-h1 {
+    color: var(--hover-color);
+    font-family: Open Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -.553px;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+
+.Student{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.Student input,
+select{
+    background: var(--bg);
+}
+
+.reception-form select {
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    padding: 0 10px;
+}
+.reception-form select:focus{
+    transition: 0.4s;
+    border-radius: 15px;
+    outline: grey;
+    border: 1px solid grey;
+}
+.reception-form input {
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    padding: 0 10px;
+}
+.reception-form input:focus{
+    transition: 0.4s;
+    border-radius: 15px;
+    outline: grey;
+    border: 1px solid grey;
+}
+
+
+.reception-btn {
+    background: linear-gradient(to bottom right, rgb(23, 157, 190), rgb(63 140 255));
+    border: 0;
+    border-radius: 4px;
+    box-shadow:  var(--b-sh);
+    color: #fff;
+    cursor: pointer;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    height: 50px;
+    letter-spacing: -.332px;
+    line-height: normal;
+    outline: 0;
+    transition: all .2s;
+    width: 380px;
+}
+
+.reception-table-content {
+    
+    border-radius: 10px;
+    border-radius: 12px;
+    font-family: Open Sans;
+    margin-top: 20px;
+    padding: 10px 5px;
+    text-align: center;
+    width: 100%;
+
+}
+
+.reception-table {
+    width: 100%;
+
+}
+.reception-table tr {
+    color: var(--text-color);
+    font-family: Open Sans;
+    font-style: normal;
+    line-height: normal;
+    font-size: 16px;
+    width: 25%;
+    /* box-shadow:  var(--b-sh); */
+}
+
+.reception-img {
+    width: 50px;
+    height: 50px;
+}
+
+.reception-div {
+    /* height: 100px; */
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    /* width: 200px; */
+    /* background-color: red; */
+    
+}
+
+.reception-tbody td {
+    color:  var(--text-color);
+    font-family: Open Sans;
+    font-style: normal;
+    line-height: normal;
+    font-size: 16px;
+    /* width: 100%; */
+    height: 70px;
+    /* padding-top: 30px; */
+    /* margin-top: 10px; */
+    /* display: flex; */
+}
+
+/* .reception-tbody:hover { */
+    /* box-shadow: 0 0 15px #0000001c; */
+/* } */
+
+.reception-tbody {
+    margin-top: 50px;
+    /* text-align: center; */
+    /* justify-content: center; */
+}
+
+.reception-delete {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.reception-delet {
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #e73c3c;
+    color: white;
+    cursor: pointer;
+}
+
+.reception-edit {
+    cursor: pointer;
+    background-color: #62acdd;
+    color: white;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.reception-edit-izminit{
+    display: block;
+    background: linear-gradient(to bottom right, #cb0c9f, #7928ca);
+    border: 0;
+    border-radius: 4px;
+    box-shadow:  var(--b-sh);
+    color: #fff;
+    cursor: pointer;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    height: 50px;
+    letter-spacing: -.332px;
+    line-height: normal;
+    outline: 0;
+    transition: all .2s;
+    width: 380px;
+}
+.ion-edit {
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    border-radius: 50%;
+    background-color: blue;
+    color: white;
+    cursor: pointer;}
+.course-logo{
+    width: 50px;
+    height: 50px;
+}

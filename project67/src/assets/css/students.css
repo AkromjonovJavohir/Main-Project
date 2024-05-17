@@ -1,0 +1,81 @@
+.students-col {
+    width: 30%;
+    box-shadow: 0px 0px 6px #dfdfdf;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.studets-col1-header {
+    width: 100%;
+}
+
+.students-content {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.students-col:last-child {
+    width: 66% !important;
+}
+
+.students-header-title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.Cours-name {
+    background-color: #ececec;
+    color: #131113;
+    width: 50%;
+    font-size: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.students-price {
+    margin-top: 15px;
+    font-size: 11px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.student-plus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(182, 197, 43);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.studends-table {
+    margin-top: 20px;
+}
+
+.studends-table thead {
+    text-align: left;
+}
+
+.reception-tbody {
+    text-align: center;
+}
+
+.studends-table,
+.studends-table th,
+.studends-table td,
+.students-main-table,
+.students-main-table th,
+.students-main-table td {
+
+    border-bottom: 1px solid #ccc;
+    border-collapse: collapse;
+}

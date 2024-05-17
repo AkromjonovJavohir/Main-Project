@@ -1,0 +1,101 @@
+.news-head {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.news-head h1 {
+    color: var(--text-color);
+    font-family: Open Sans;
+    font-weight: 700;
+}
+
+.news-head button {
+    font-family: Open Sans;
+    background: linear-gradient(to bottom right, rgb(23, 157, 190), rgb(63 140 255));
+    border: 0;
+    border-radius: 4px;
+    box-shadow:  var(--b-sh);
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    height: 40px;
+    letter-spacing: -.332px;
+    outline: 0;
+    transition: all .2s;
+    width: 60px;
+}
+
+.news-body {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.news-alert {
+    padding: 10px 15px;
+    margin-left: 5px;
+    border-radius: 15px;
+    width: 99%;
+    height: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow:  var(--b-sh);
+}
+
+.news-alert-left {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.news-alert-title {
+    font-size: 22px;
+}
+
+.news-alert-description {
+    font-size: 14px;
+    color: #a9a9a9;
+}
+
+.news-alert-right {
+    display: flex;
+    gap: 10px;
+}
+
+.news-body button {
+    cursor: pointer;
+    background: 0;
+    border: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+.news-body .edit-alert {
+    background: rgb(41, 154, 247);
+}
+
+.news-body .delete-alert {
+    background: rgb(247, 41, 41);
+}
+.news-body .eye-alert{
+    background: #777;
+    color: #fff;
+}
+.news-body i {
+    color: #fff;
+    font-size: 15px;
+}
+
+.eye-alert{
+    cursor: pointer;
+    background: 0;
+    border: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}

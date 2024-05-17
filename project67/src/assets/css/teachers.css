@@ -1,0 +1,229 @@
+.header{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #0000001c;
+    height: 60px;
+    justify-content: space-between;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+.header__filter input{
+   border: none;
+   outline: none;
+}
+.header__filter{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background: #fff;
+    border: 1px solid #dadada;
+    border-radius: 8px;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    height: 45px;
+    letter-spacing: -.387px;
+    line-height: normal;
+    outline: 0;
+    padding: 0 5px 0 5px;
+}
+.header__right{
+    display: flex;
+    align-items: center;
+}
+.header__theme{
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.header__theme2{
+    margin-left: 20px;
+    cursor: pointer;
+    color: #fff;
+    display: none;
+}
+
+
+
+/* .content{
+    height: calc(100vh - 70px);
+} */
+
+
+
+.teach-navbar {
+    /* navbar */
+    position: absolute;
+    width: 1140px;
+    height: 60px;
+    box-shadow: -1px 1px 4px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding-right: 4px;
+    padding-left: 8px;
+    background-color: white;
+    margin-top: 2px;
+    background-color: var(--primary-content-bg);
+    border-radius: 10px;
+    box-shadow: 0 0 15px #0000001c;
+}
+
+.teach-con {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.teach-left {
+    color: rgb(37, 47, 64);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: -1px;
+    letter-spacing: -0.39px;
+    text-align: left;
+    opacity: 0.5;
+
+}
+
+.teach-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: white;
+}
+
+.teach-search {
+    box-shadow: 0 0 2px;
+    padding: 7px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding-left: 15px;
+    border: 1px solid var(--search-border-color);   
+}
+
+.teach-search input {
+    border: 0;
+    font-size: 20px;
+    outline: 0;
+    width: 220px;
+    height: 32px;
+}
+
+.teach-add{
+    width: 1140px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    position: relative;
+    top: 78px;
+}
+
+.teach-our {
+    width: 220px;
+    font-size: 32px;
+    font-weight: 650;
+    text-align: center;
+}
+.teach-btn{
+    width: 65px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0;
+    background: linear-gradient(to bottom right,#cb0c9f,#7928ca);
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+
+
+
+.teach-table {
+    display: flex;
+    flex-direction: column;
+    width: 1120px;
+    position: relative;
+    top: 130px;
+    border-radius: 12px;
+    padding-top: 20px;
+    padding-bottom: 12px;
+    box-shadow: -1px 1px 4px;
+    gap: 20px;
+    box-shadow: 0 0 15px #0000001c;
+}
+
+.teach-table-left {
+    display: flex;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: -1px;
+    letter-spacing: -0.39px;
+    text-align: left;
+    gap: 140px;
+    margin-left: 60px;
+}
+.teach-table-center{
+    width: 1100px;
+    display: flex;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: -1px;
+    letter-spacing: -0.39px;
+    text-align: left;
+    gap: 133px;
+    position: relative;
+    left: 15px;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.teach-buttons i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.teach-table-center:hover{
+    box-shadow: 0 0 15px #0000001c;
+}
+
+.teach-table-center img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.teach-buttons{
+    width: 189px;
+    height: 30px;
+    display: flex;
+    gap: 10px;
+}
+
+.about-icon{
+    background-color: #38c475;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.teach-buttons i{
+    color: white;
+}

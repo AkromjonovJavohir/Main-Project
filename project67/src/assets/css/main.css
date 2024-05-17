@@ -1,0 +1,152 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 22px;
+    /* margin-bottom: 30px; */
+    margin-bottom: 30px;
+}
+
+.navbar-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-color);
+}
+
+.navbar-left div p {
+    color: var(--text-color);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: -1px;
+    letter-spacing: -0.39px;
+    text-align: left;
+    opacity: 0.5;
+
+}
+.navbar-input input{
+    outline: 0;
+}
+.navbar-left div {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-color);
+}
+
+.navbar-left div div {
+    color: rgb(37, 47, 64);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: -1px;
+    letter-spacing: -0.39px;
+    text-align: left;
+    opacity: 0.5;
+}
+
+.navbar-left div span {
+    color: var(--text-color);
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: -1px;
+    letter-spacing: -0.39px;
+    text-align: left;
+}
+
+.navbar-left:last-child {
+    color: rgb(37, 47, 64);
+    font-family: OpenSans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: -1px;
+    letter-spacing: -0.44px;
+    text-align: left;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.navbar-sign{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    font-family: Open Sans;
+    
+}
+.navbar-sign-icon{
+    background: rgb(103, 116, 142);
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.navbar-sign-icon span{
+    color: #fff;
+}
+.navbar-sign div{
+ 
+    color: rgb(103, 116, 142);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: -1px;
+    letter-spacing: -0.39px;
+    text-align: left;
+}
+.navbar-sign span{
+    
+    
+}
+
+.navbar-settings {
+    display: flex;
+    gap: 13px;
+    color: rgb(103, 116, 142);
+}
+
+.navbar-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--input-border);
+    border-radius: 8px;
+
+    background: var(--bg);
+    padding: 13px 12px;
+    gap: 7px;
+}
+
+.navbar-input input {
+    border: 0;
+    background: 0;
+}
+
+.notifications{
+    display: flex;
+}
+.news-count{
+    position: absolute;
+    background: red;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    font-size: 10px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 14px;
+}
+.bi-bell-fill{
+    position: relative;
+}

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+:root{
+  --bg:rgb(255,255,255);
+  --liner-bg:linear-gradient(63.43deg, rgb(255, 255, 255) 24.999%, rgb(245, 245, 245) 79.667%, rgb(255, 255, 255) 124.936%);
+  --text-color:black;
+  --input-border:#444;
+  --b-sh:0 0 15px #0000001c;
+}
+
+.dark-theme{
+  --bg:rgb(21, 27, 38);
+  --liner-bg:linear-gradient(63.43deg, rgb(21 27 38) 24.999%, rgb(19 30 51) 79.667%, rgb(21 27 38) 124.936%);
+  --text-color:rgb(182, 174, 174);
+  --input-border:rgb(58, 50, 50);
+  --b-sh:0 0 15px #b4acac1c;
+}
+body {
+  font-family: "Nunito Sans", sans-serif;
+  background: var(--bg);
+  color: var(--text-color);
+}
+
+
+
+
+.spinner-container{
+  /* background-color: red; */
+  width: 100%;
+  height:calc(100vh - 200px);
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+@import "reception.css";
+@import "home.css";
+@import "layout.css";
+@import "login.css";
+@import "main.css";
+@import "register.css";
+@import "course.css";
+@import "teacher.css";
+@import "teachers.css";
+@import "group.css";
+@import "news.css";
+@import "students.css"
